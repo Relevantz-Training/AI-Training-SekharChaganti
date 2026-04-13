@@ -37,9 +37,5 @@ namespace Relevantz.API.CustomerDetails.Constants
 
         /// <summary>Swagger/OpenAPI description.</summary>
         public const string SwaggerDescription = "A RESTful API for managing customer details, supporting full CRUD operations.";
-
-        // ── Default values ───────────────────────────────────────────────────────
-        /// <summary>Default empty string.</summary>
-        public const string Empty = "";
     }
 }

@@ -31,8 +31,8 @@ dotnet build
 dotnet run --project Relevantz.API.CustomerDetails
 ```
 
-The API will be available at `https://localhost:5001` (or `http://localhost:5000`).  
-Swagger UI is available in development mode at: `https://localhost:5001/swagger`
+The API will be available at `https://localhost:7292` (or `http://localhost:5048`).  
+Swagger UI is available in development mode at: `https://localhost:7292/swagger`
 
 ---
 

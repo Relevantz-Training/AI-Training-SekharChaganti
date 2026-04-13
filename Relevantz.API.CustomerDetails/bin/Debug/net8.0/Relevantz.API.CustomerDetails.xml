@@ -39,9 +39,6 @@
         <member name="F:Relevantz.API.CustomerDetails.Constants.CustomerConstants.SwaggerDescription">
             <summary>Swagger/OpenAPI description.</summary>
         </member>
-        <member name="F:Relevantz.API.CustomerDetails.Constants.CustomerConstants.Empty">
-            <summary>Default empty string.</summary>
-        </member>
         <member name="T:Relevantz.API.CustomerDetails.Controllers.CustomerController">
             <summary>
             Provides RESTful API endpoints for managing customer details.
