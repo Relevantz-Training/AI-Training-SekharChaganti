@@ -16,7 +16,7 @@ builder.Services.AddControllers();
 
 // Register application services
 builder.Services.AddScoped<ICustomerService, CustomerService>();
-builder.Services.AddSingleton<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 
 // Configure Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
