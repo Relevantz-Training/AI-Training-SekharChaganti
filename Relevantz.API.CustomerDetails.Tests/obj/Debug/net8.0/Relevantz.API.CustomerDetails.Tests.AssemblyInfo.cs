@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Relevantz.API.CustomerDetails.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90a2e9a17e61080d42c37f2e4f314a2f0abf4ed1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e80113cc53e093467a46341074647f690660187")]
 [assembly: System.Reflection.AssemblyProductAttribute("Relevantz.API.CustomerDetails.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Relevantz.API.CustomerDetails.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

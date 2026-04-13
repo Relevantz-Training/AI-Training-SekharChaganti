@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Relevantz.API.CustomerDetails.Interfaces;
@@ -16,9 +17,10 @@ namespace Relevantz.API.CustomerDetails.Services
         /// Initializes a new instance of <see cref="CustomerService"/>.
         /// </summary>
         /// <param name="repository">The customer repository.</param>
+        /// <exception cref="ArgumentNullException">Thrown when repository is null.</exception>
         public CustomerService(ICustomerRepository repository)
         {
-            _repository = repository;
+            _repository = repository ?? throw new ArgumentNullException(nameof(repository));
         }
 
         /// <inheritdoc />

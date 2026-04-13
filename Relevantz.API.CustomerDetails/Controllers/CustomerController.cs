@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -20,9 +21,10 @@ namespace Relevantz.API.CustomerDetails.Controllers
         /// Initializes a new instance of <see cref="CustomerController"/>.
         /// </summary>
         /// <param name="service">The customer service.</param>
+        /// <exception cref="ArgumentNullException">Thrown when service is null.</exception>
         public CustomerController(ICustomerService service)
         {
-            _service = service;
+            _service = service ?? throw new ArgumentNullException(nameof(service));
         }
 
         /// <summary>

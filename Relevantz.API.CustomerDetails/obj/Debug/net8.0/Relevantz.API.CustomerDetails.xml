@@ -49,6 +49,7 @@
             Initializes a new instance of <see cref="T:Relevantz.API.CustomerDetails.Controllers.CustomerController"/>.
             </summary>
             <param name="service">The customer service.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when service is null.</exception>
         </member>
         <member name="M:Relevantz.API.CustomerDetails.Controllers.CustomerController.GetAll">
             <summary>
@@ -250,6 +251,7 @@
             Initializes a new instance of <see cref="T:Relevantz.API.CustomerDetails.Services.CustomerService"/>.
             </summary>
             <param name="repository">The customer repository.</param>
+            <exception cref="T:System.ArgumentNullException">Thrown when repository is null.</exception>
         </member>
         <member name="M:Relevantz.API.CustomerDetails.Services.CustomerService.GetAllAsync">
             <inheritdoc />
