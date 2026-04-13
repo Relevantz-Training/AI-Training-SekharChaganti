@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Relevantz.API.CustomerDetails.Tests/Relevantz.API.CustomerDetails.Tests.csproj" />
+  <Project Path="Relevantz.API.CustomerDetails/Relevantz.API.CustomerDetails.csproj" />
+</Solution>
