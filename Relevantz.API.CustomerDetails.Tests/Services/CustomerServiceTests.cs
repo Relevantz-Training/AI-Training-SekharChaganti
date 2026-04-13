@@ -17,7 +17,7 @@ namespace Relevantz.API.CustomerDetails.Tests.Services
         private readonly Mock<ICustomerRepository> _mockRepo;
         private readonly CustomerService _service;
 
-        /// <summary>Initialises test dependencies.</summary>
+        /// <summary>Initializes test dependencies.</summary>
         public CustomerServiceTests()
         {
             _mockRepo = new Mock<ICustomerRepository>();

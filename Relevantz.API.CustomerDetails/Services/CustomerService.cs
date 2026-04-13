@@ -13,7 +13,7 @@ namespace Relevantz.API.CustomerDetails.Services
         private readonly ICustomerRepository _repository;
 
         /// <summary>
-        /// Initialises a new instance of <see cref="CustomerService"/>.
+        /// Initializes a new instance of <see cref="CustomerService"/>.
         /// </summary>
         /// <param name="repository">The customer repository.</param>
         public CustomerService(ICustomerRepository repository)

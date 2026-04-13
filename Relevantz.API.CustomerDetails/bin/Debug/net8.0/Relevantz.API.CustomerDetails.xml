@@ -46,7 +46,7 @@
         </member>
         <member name="M:Relevantz.API.CustomerDetails.Controllers.CustomerController.#ctor(Relevantz.API.CustomerDetails.Interfaces.ICustomerService)">
             <summary>
-            Initialises a new instance of <see cref="T:Relevantz.API.CustomerDetails.Controllers.CustomerController"/>.
+            Initializes a new instance of <see cref="T:Relevantz.API.CustomerDetails.Controllers.CustomerController"/>.
             </summary>
             <param name="service">The customer service.</param>
         </member>
@@ -219,7 +219,7 @@
         </member>
         <member name="M:Relevantz.API.CustomerDetails.Repositories.CustomerRepository.#ctor">
             <summary>
-            Initialises a new instance of <see cref="T:Relevantz.API.CustomerDetails.Repositories.CustomerRepository"/> with seeded mock data.
+            Initializes a new instance of <see cref="T:Relevantz.API.CustomerDetails.Repositories.CustomerRepository"/> with seeded mock data.
             </summary>
         </member>
         <member name="M:Relevantz.API.CustomerDetails.Repositories.CustomerRepository.GetAllAsync">
@@ -247,7 +247,7 @@
         </member>
         <member name="M:Relevantz.API.CustomerDetails.Services.CustomerService.#ctor(Relevantz.API.CustomerDetails.Interfaces.ICustomerRepository)">
             <summary>
-            Initialises a new instance of <see cref="T:Relevantz.API.CustomerDetails.Services.CustomerService"/>.
+            Initializes a new instance of <see cref="T:Relevantz.API.CustomerDetails.Services.CustomerService"/>.
             </summary>
             <param name="repository">The customer repository.</param>
         </member>

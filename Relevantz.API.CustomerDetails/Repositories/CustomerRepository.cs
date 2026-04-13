@@ -17,7 +17,7 @@ namespace Relevantz.API.CustomerDetails.Repositories
         private int _nextId;
 
         /// <summary>
-        /// Initialises a new instance of <see cref="CustomerRepository"/> with seeded mock data.
+        /// Initializes a new instance of <see cref="CustomerRepository"/> with seeded mock data.
         /// </summary>
         public CustomerRepository()
         {

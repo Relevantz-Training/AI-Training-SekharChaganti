@@ -18,7 +18,7 @@ namespace Relevantz.API.CustomerDetails.Tests.Controllers
         private readonly Mock<ICustomerService> _mockService;
         private readonly CustomerController _controller;
 
-        /// <summary>Initialises test dependencies.</summary>
+        /// <summary>Initializes test dependencies.</summary>
         public CustomerControllerTests()
         {
             _mockService = new Mock<ICustomerService>();

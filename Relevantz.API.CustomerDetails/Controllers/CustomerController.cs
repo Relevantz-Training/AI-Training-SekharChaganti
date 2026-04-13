@@ -17,7 +17,7 @@ namespace Relevantz.API.CustomerDetails.Controllers
         private readonly ICustomerService _service;
 
         /// <summary>
-        /// Initialises a new instance of <see cref="CustomerController"/>.
+        /// Initializes a new instance of <see cref="CustomerController"/>.
         /// </summary>
         /// <param name="service">The customer service.</param>
         public CustomerController(ICustomerService service)
