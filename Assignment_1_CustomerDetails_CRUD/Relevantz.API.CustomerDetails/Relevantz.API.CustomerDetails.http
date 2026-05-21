@@ -1,0 +1,6 @@
+@Relevantz.API.CustomerDetails_HostAddress = http://localhost:5048
+
+GET {{Relevantz.API.CustomerDetails_HostAddress}}/api/customers
+Accept: application/json
+
+###
