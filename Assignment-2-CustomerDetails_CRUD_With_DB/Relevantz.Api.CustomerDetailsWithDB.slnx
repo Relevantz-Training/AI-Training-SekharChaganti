@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Relevantz.Api.CustomerDetailsWithDB.Data/Relevantz.Api.CustomerDetailsWithDB.Data.csproj" />
+  <Project Path="Relevantz.Api.CustomerDetailsWithDB.Tests/Relevantz.Api.CustomerDetailsWithDB.Tests.csproj" />
+  <Project Path="Relevantz.Api.CustomerDetailsWithDB/Relevantz.Api.CustomerDetailsWithDB.csproj" />
+</Solution>
